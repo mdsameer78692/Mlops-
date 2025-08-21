@@ -1,0 +1,30 @@
+List 5 real-world problems that MLOps helps solve (e.g., model drift, reproducibility)
+1. Model Drift (Data/Concept Drift)
+
+Problem: A model’s accuracy drops over time because real-world data changes (e.g., fraud patterns, customer behavior, or market trends).
+
+MLOps Solution: Monitors models in production, detects drift, and automates retraining with updated data.
+
+🔹 2. Reproducibility of Experiments
+
+Problem: Data scientists run many experiments (different datasets, hyperparameters, or algorithms), but without proper tracking, it’s hard to reproduce results later.
+
+MLOps Solution: Tracks datasets, code, models, and parameters (using tools like MLflow, DVC, or Weights & Biases). Ensures results can be reproduced anytime.
+
+🔹 3. Scalable Deployment of Models
+
+Problem: A model that works in a Jupyter notebook may fail under real-world load (e.g., millions of users making predictions).
+
+MLOps Solution: Provides pipelines for scalable model deployment (via Docker, Kubernetes, cloud services) so models can serve predictions reliably.
+
+🔹 4. Collaboration Between Teams
+
+Problem: Data scientists, ML engineers, and DevOps teams often work in silos. Code, data, and infrastructure don’t sync properly.
+
+MLOps Solution: Standardizes workflows (CI/CD + Continuous Training), making it easier for teams to share datasets, models, and deployment pipelines.
+
+🔹 5. Monitoring & Governance
+
+Problem: Unlike normal software, ML models can silently fail (e.g., biased predictions, poor accuracy, or compliance issues).
+
+MLOps Solution: Adds monitoring for prediction quality, fairness, latency, and compliance. Keeps models accountable and auditable.
